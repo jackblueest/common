@@ -1,1 +1,25 @@
+anthropic.com
+clau.de
+claude.ai
+claude.com
+claudemcpclient.com
+claudemcpcontent.com
+claudeusercontent.com
+servd-anthropic-website.b-cdn.net
+sentry.io
+statsigapi.net
+cdn.anthropic.com
+mcp.anthropic.com
+console.anthropic.com
+workbench.anthropic.com
+anthropic.auth0.com
+anthropic-com.ghost.io
+anthropic.com.cdn.cloudflare.net
+兜底规则（geosite + keyword 通配）
+除了上面的具体规则，还可以加上以下基于分类和关键词的通配兜底规则，进一步提高漏配域名时的覆盖率：
 
+geosite:anthropic
+keyword:datadog
+keyword:sentry
+keyword:sift
+geosite:category-ntp
